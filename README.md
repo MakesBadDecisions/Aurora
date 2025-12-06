@@ -41,8 +41,7 @@ chain_count: 3         # Your LED count
 color_order: GRB       # Usually GRB for WS2812
 
 Set groups according to Aurora.cfg based on your physical neopixel location and how you want them grouped.
-Then assign colors and effects as needed. Beware of limitations of Aurora, clearly outlined in the documentation.
- 
+Then assign colors and effects as needed. Beware of limitations of Aurora, clearly outlined in the documentation. 
 ```
 
 ### 5. Add AURORA_WAKE to Macros
@@ -54,6 +53,8 @@ AURORA_WAKE   # Sync Aurora after blocking operations
 Add to your `PRINT_END` (after heaters off):
 ```
 AURORA_WAKE   # Detect cooldown state
+
+Add anywhere you need to wake Aurora to update your groups based on events and effects
 ```
 
 ### 6. Restart
