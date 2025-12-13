@@ -9,7 +9,6 @@ Aurora monitors your printer state and automatically changes LED colors/effects.
 ## Features
 
 - **Automatic state detection** - Responds to idle, heating, printing, cooldown, error
-- **Zero integration required** - No changes to PRINT_START/PRINT_END
 - **Group-based configuration** - Assign different effects to different LED zones
 - **Performance-first design** - Minimal CPU impact, safe for Pi Zero 2W
 - **40+ built-in colors** - Or define your own
